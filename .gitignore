@@ -1,0 +1,60 @@
+# 依赖
+node_modules/
+
+# 日志
+logs/*.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# PM2
+.pm2/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SSL 证书（敏感信息，不要上传）
+# 注意：保留 certs/README.md 以便用户知道如何放置证书
+certs/*.pem
+certs/*.key
+certs/*.crt
+certs/*.csr
+*.pem
+*.key
+*.crt
+*.csr
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 备份文件
+*.bak
+*.backup
+backup/
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+

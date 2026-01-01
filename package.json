@@ -1,0 +1,47 @@
+{
+  "name": "ai-api-gateway",
+  "version": "1.1.0",
+  "description": "🚀 Secure AI API Gateway - Bypass geo-restrictions for OpenAI, Gemini & Claude APIs with end-to-end HTTPS encryption",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop ai-api-proxy",
+    "pm2:restart": "pm2 restart ai-api-proxy",
+    "pm2:logs": "pm2 logs ai-api-proxy",
+    "pm2:monit": "pm2 monit"
+  },
+  "keywords": [
+    "ai-proxy",
+    "openai-api",
+    "gemini-api",
+    "claude-api",
+    "api-gateway",
+    "reverse-proxy",
+    "cloudflare",
+    "https",
+    "geo-bypass",
+    "streaming-api",
+    "cors-proxy"
+  ],
+  "author": "HgLiJiahao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HgLiJiahao/ai-api-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HgLiJiahao/ai-api-gateway/issues"
+  },
+  "homepage": "https://github.com/HgLiJiahao/ai-api-gateway#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
